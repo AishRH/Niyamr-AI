@@ -1,5 +1,6 @@
 # NIYAMR AI — PDF Rule Checker
 
+
 Lightweight web app to upload a PDF and check it against custom rules using an LLM backend.
 
 ## Project layout
@@ -32,6 +33,7 @@ Quick references:
 4. Run the dev server:
    - From project root: uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
    - Or: cd backend && uvicorn main:app --reload --port 8000
+
 
 Notes:
 - CORS origins are set in [backend/main.py](backend/main.py). Update allowed origins if your frontend runs elsewhere.
